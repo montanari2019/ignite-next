@@ -25,28 +25,28 @@ export const CAMISETAS = [
 
 
     }, 
-    // {
-    //     id: 3,
-    //     name: "Camiseta 03",
-    //     src: camiseta03,
-    //     price: 19.50
+    {
+        id: 3,
+        name: "Camiseta 03",
+        src: camiseta03,
+        price: 19.50
 
 
-    // }, 
-    // {
-    //     id: 4,
-    //     name: "Camiseta 04",
-    //     src: camiseta04,
-    //     price: 109.50
+    }, 
+    {
+        id: 4,
+        name: "Camiseta 04",
+        src: camiseta04,
+        price: 109.50
 
 
-    // }, 
-    // {
-    //     id: 5,
-    //     name: "Camiseta 05",
-    //     src: camiseta05,
-    //     price: 59.50
+    }, 
+    {
+        id: 5,
+        name: "Camiseta 05",
+        src: camiseta05,
+        price: 59.50
 
 
-    // },
+    },
 ]
