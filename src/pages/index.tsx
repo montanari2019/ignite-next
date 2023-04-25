@@ -4,7 +4,7 @@ import { ContainerHome, Product } from "../styles/stylesComponents/StyledHome";
 import { CAMISETAS } from "../utils/camisetas";
 import { useKeenSlider } from "keen-slider/react"
 import "keen-slider/keen-slider.min.css"
-import { GetServerSideProps } from "next";
+import { GetStaticProps } from "next";
 import { stripe } from "../lib/strripe";
 import Stripe from "stripe";
 
@@ -44,7 +44,7 @@ export default function Home({ products }:HomeProps) {
   );
 }
 
-export const getServerSideProps: GetServerSideProps = async () =>{
+export const getStaticProps: GetStaticProps = async () =>{
   const response = await stripe.products.list({
     expand:['data.default_price']
   })
