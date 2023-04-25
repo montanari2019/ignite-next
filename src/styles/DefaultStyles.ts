@@ -9,6 +9,7 @@ export const { styled, css, globalCss, keyframes, getCssText, theme, createTheme
             gray100:"#E1E1E6",
             gray800:"#202024",
             gray900:"#121214",
+            white:"#ffff"
         },
         fontSizes:{
             md: '1.125rem',
