@@ -19,9 +19,9 @@ export const Product = styled("a",{
     display: 'flex',
     alignItems: "center",
     justifyContent: "center",
-
+    
     overflow: 'hidden',
-
+    
     img:{
         objectFit: "cover",
     },
@@ -32,19 +32,20 @@ export const Product = styled("a",{
         left: '0.25rem',
         right: '0.25rem',
         padding: '2rem',
-
+        
         borderRadius: 6,
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'space-between',
         
         backgroundColor: 'rgba(0,0,0, 0.6)',
-
+        
         transform: 'translateY(110%)',
         opacity: 0,
         transition: 'all 0.2s ease-in-out',
-
+        
         strong:{
+            color: "$gray100",
             fontSize:'$lg',
         },
         
